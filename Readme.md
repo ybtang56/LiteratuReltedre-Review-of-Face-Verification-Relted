@@ -13,7 +13,7 @@ Below part is based on the [Trained Model Eng](https://github.com/betars/Face-Re
 	* 93% @ 2015 by CMU. 
 	* CNN: Use FaceNet Architecture (Tripletloss via Torch)
 	* dlib to detech and align the face
-	* if it changes to mtcnn, the accruacy [drops badly](https://zhuanlan.zhihu.com/p/43804018).
+		* if it changes to mtcnn, the accruacy [drops badly](https://zhuanlan.zhihu.com/p/43804018).
 
 3. [SeetaFace Engine](https://github.com/seetaface/SeetaFaceEngine). SeetaFace Engine is an open source C++ face recognition engine, which can run on CPU with no third-party dependence. 
 	* @2017 by 计算所 CAS
