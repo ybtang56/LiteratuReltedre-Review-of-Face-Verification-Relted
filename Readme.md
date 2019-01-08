@@ -10,7 +10,7 @@ Below part is based on the [Trained Model Eng](https://github.com/betars/Face-Re
 	* mtcnn to detect and align the face
 
 2. [openface](https://github.com/cmusatyalab/openface). Face recognition with Google's FaceNet deep neural network using Torch.
-	* 93% @ 2016 by CMU. 
+	* 93% @ 2015 by CMU. 
 	* CNN: Use FaceNet Architecture (Tripletloss via Torch)
 	* dlib to detech and align the face
 	* if it changes to mtcnn, the accruacy [drops badly](https://zhuanlan.zhihu.com/p/43804018).
