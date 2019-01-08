@@ -23,8 +23,8 @@ Below part is based on the [Trained Model Eng](https://github.com/betars/Face-Re
 4. [Caffe-face](https://github.com/ydwen/caffe-face) - Caffe Face is developed for face recognition using deep neural networks. 
 	* 99.28%@2016, 港中文+深圳先进院
 	* Softmax Loss + Center Loss: 
-	* Softmax Loss: 深度特征类内离散度较大
-	* Center Loss: 深度特征和类别中心将趋近于 0.  是使得任意红色特征点之间的距离小于红色特征点与蓝色特征点之间的距离，以确保最好的不同特征类别的划分.
+		* Softmax Loss: 深度特征类内离散度较大
+		* Center Loss: 深度特征和类别中心将趋近于 0.  是使得任意红色特征点之间的距离小于红色特征点与蓝色特征点之间的距离，以确保最好的不同特征类别的划分.
 	* https://blog.csdn.net/qq_14845119/article/details/53308996
 	* https://blog.csdn.net/zziahgf/article/details/78548663
 
