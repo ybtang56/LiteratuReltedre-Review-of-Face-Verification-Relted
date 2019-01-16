@@ -48,4 +48,10 @@ Below part is based on the [Trained Model Eng](https://github.com/betars/Face-Re
 * For medium to large image sizes
   * Dlib HoG is the fastest method on CPU. But it does not detect small sized faces ( < 70x70 ). So, if you know that your application will not be dealing with very small sized faces ( for example a selfie app ), then HoG based Face detector is a better option. Also, If you can use a GPU, then MMOD face detector is the best option as it is very fast on GPU and also provides detection at various angles.
 
+## Related opensource projects:
 
+* dlib https://github.com/Malkhan52/face_recognition
+* mtcnn face detection which based on FaceNet project from https://github.com/chenlinzhong/face-login
+  * 人脸检测方法有许多，比如opencv自带的人脸Haar特征分类器和dlib人脸检测方法等。 对于opencv的人脸检测方法，有点是简单，快速；存在的问题是人脸检测效果不好。正面/垂直/光线较好的人脸，该方法可以检测出来，而侧面/歪斜/光线不好的人脸，无法检测。因此，该方法不适合现场应用。对于dlib人脸检测方法 ，效果好于opencv的方法，但是检测力度也难以达到现场应用标准。 本文中，我们采用了基于深度学习方法的mtcnn人脸检测系统（mtcnn：Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Neural Networks）。
+  * mtcnn人脸检测方法对自然环境中光线，角度和人脸表情变化更具有**鲁棒性，人脸检测效果更好；同时，内存消耗不大，可以实现实时人脸检测**。本文中采用mtcnn是基于python和tensorflow的实现（代码来自于davidsandberg，caffe实现代码参见：kpzhang93）
+  **Why my testing codes cost about 1.5 second per picture?** 
