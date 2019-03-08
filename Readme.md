@@ -8,6 +8,7 @@ Below part is based on the [Trained Model Eng](https://github.com/betars/Face-Re
 	* 99.63% @ 2015 by Google. 
 	* CNN: Tripletloss via Tensorflow + Python
 	* mtcnn to detect and align the face
+	* Understand Facenet via: https://github.com/boyliwensheng/understand_facenet
 
 2. [openface](https://github.com/cmusatyalab/openface). Face recognition with Google's FaceNet deep neural network using Torch.
 	* 93% @ 2015 by CMU. 
